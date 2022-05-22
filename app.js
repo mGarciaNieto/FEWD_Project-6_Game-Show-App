@@ -5,7 +5,35 @@ const heartTries = document.querySelectorAll('.tries')
 let missed = 0
 const MISSED_MAX = 5
 
-const phrases = ['Break a leg', 'By hook or by crook', 'Cast no clout until may be out', 'Speak of the devil', 'Your guess is as good as mine']
+const phrases = [
+  'Break a leg',
+  'By hook or by crook',
+  'Cast no clout until may be out',
+  'Speak of the devil',
+  'Your guess is as good as mine',
+  'A dime a dozen',
+  'Beat around the bush',
+  'Easy does it',
+  'No pain no gain',
+  'Pull yourself together',
+  'So far so good',
+  'Hang in there',
+  'Hit the sack',
+  'On the ball',
+  'Go back to the drawing board',
+  'Get your act together',
+  'Cutting corners',
+  'Bite the bullet',
+  'A blessing in disguise',
+  'Better late than never',
+  'Off the hook',
+  'Make a long story short',
+  'Miss the boat',
+  'The last straw',
+  'Best of both worlds',
+  'Under the weather',
+  'You can say that again'
+]
 
 starGameBtn.addEventListener('click', () => {
   overlay.style.visibility = 'hidden'
